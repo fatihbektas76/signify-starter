@@ -1,0 +1,31 @@
+{
+  "name": "signify-starter",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Reference implementation for integrating Signify (sign.echtly.de) into your own backend. Framework-agnostic client + webhook-handler + runnable examples.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "smoke": "tsx scripts/smoke-test.ts",
+    "example:express": "tsx examples/express-server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "express": "^5.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": [
+    "signify",
+    "echtly",
+    "electronic-signature",
+    "esign",
+    "docusign-alternative",
+    "integration-example"
+  ]
+}
